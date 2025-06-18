@@ -100,8 +100,8 @@ model.train(X_train, y_train, epochs=1000)
 # ---------------------------
 predictions = model.predict(X_test)
 
-print("\nPredicciones en el conjunto de prueba (primeras 10 muestras):")
-print(predictions[:10])
+print("\nPredicciones en el conjunto de prueba:")
+print(predictions[:121])
 
 print("\nMatriz de Confusión:")
 print(confusion_matrix(y_test, predictions))
