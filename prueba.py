@@ -90,7 +90,7 @@ class MLP:
 # 4. Entrenamiento del Modelo
 # ---------------------------
 input_dim = X_train.shape[1]  # número de características
-model = MLP(input_size=input_dim, hidden_size=10, output_size=1, learning_rate=0.01)
+model = MLP(input_size=input_dim, hidden_size=20, output_size=1, learning_rate=0.01)
 
 print("Entrenando el modelo...")
 model.train(X_train, y_train, epochs=1000)
